@@ -1,0 +1,13 @@
+
+<div> <h1>  <a href="/"> Django blog </a></h1>  </div>
+
+{% for p in posts  %}
+
+<div>
+    <p> published: {{p.published_date}}</p>
+    <h2> <a> {{p.title}} </a> </h2>
+    <p> {{p.text | linebreaksbr}}</p>
+</div>
+
+
+{% endfor %}
