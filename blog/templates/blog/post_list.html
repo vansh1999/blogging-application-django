@@ -8,7 +8,7 @@
                          <p> published: {{p.published_date}}</p>
                    </div>
                    <div>
-                       <h2> <a href="/home"> {{p.title}} </a></h2>
+                       <h2> <a href="{% url 'post_detail' pk=p.pk %}"> {{p.title}} </a></h2>
                        <p> {{p.text|linebreaksbr}}</p>
                    </div>
 
