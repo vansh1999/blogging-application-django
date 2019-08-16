@@ -6,6 +6,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 
 
+
+
+
+
 .page-header {
 
     margin-top: 0;
@@ -67,5 +71,48 @@ background-size: cover;
     color: #ffffff;
 }
 
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #38B1ED ;
+  overflow: auto;
+  border: 2px solid white;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  border: 2px solid white;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #117BB0;
+  border: 2px solid white;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color:  #117BB0;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.intro{
+float: left;
+padding: 12px;
+margin-left: 20px;
 
 
+}
