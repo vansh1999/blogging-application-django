@@ -6,10 +6,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 
 
-
-
-
-
 .page-header {
 
     margin-top: 0;
@@ -36,6 +32,7 @@ background-size: cover;
  h2, h3, h4 {
     font-family: cursive;
     color: #ffffff;
+    text-decoration:none;
 }
 
 .date {
@@ -56,6 +53,8 @@ background-size: cover;
     float: right;
     font-size: 26pt;
     margin-right: 20px;
+    text-decoration:none;
+
 }
 
 .post {
@@ -69,6 +68,7 @@ background-size: cover;
 
 .post h2 a, .post h2 a:visited {
     color: #ffffff;
+    text-decoration:none;
 }
 
 /* Style the navigation bar */
@@ -116,3 +116,15 @@ margin-left: 20px;
 
 
 }
+
+
+.comment {
+    margin: 20px 0px 20px 20px;
+
+}
+
+.commentsc {
+    color: white;
+
+}
+
